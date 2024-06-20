@@ -1,0 +1,40 @@
+Materials: 
+
+- Arduino UNO x1
+- Single-channel relay module x1
+- YL-69 soil moisture sensor x1
+- 12V power source x1
+- 12V submersible water pump x1
+- Transparent tube, 8 mm diameter, 100 cm length or straw x1
+- Male-to-female cables x1 pack
+- Male-to-male cables x1 pack
+- Cutter x1
+- Functional laptop x1
+- Container with at least 500 mL of water x1
+- Plant of choice x1
+- Pressure gauge x1
+- Wire cutters x1
+
+
+Additionally, for the construction of the prototype, the following guide was used:
+
+1. Connect the first port of the humidity sensor (VCC) to 5V on the Arduino UNO.
+2. Connect the second port of the humidity sensor (GND) to GND (ground) on the Arduino UNO.
+3. Connect the fourth port of the humidity sensor to port A0 on the Arduino UNO.
+4. Connect the first port of the relay module (VCC) to the 3V3 port on the Arduino UNO.
+5. Connect the second port of the relay module (GND) to GND (ground) on the Arduino UNO.
+Note: For the following part, be very careful to avoid cuts or injuries.
+
+1. Use wire cutters to cut the cables of the power source and the submersible pump.
+2. Once the cut is made, use a cutter or the wire cutters again to open them and separate the ground cables from the power cables.
+3. Connect the red cable from the power source to the last port (ON) of the relay module.
+4. Connect the black cable from the power source to the black cable of the submersible pump.
+5. Connect the red cable from the water pump to the middle port of the relay module (COM).
+6. Place the 8mm diameter tube on the water pump.
+7. Place the humidity sensor in the soil.
+8. Place the water pump in the water container.
+9. For the last part, you will need a computer:
+
+Connect the Arduino UNO to the laptop and use the Arduino IDE platform to upload the code to the board.
+Finally, carefully check all connections, connect the power supply to the connector, and make sure the humidity sensor is operational. The project will start at my home. When no one is home and I am unavailable to water the plant, it will be watered automatically.
+To measure the water pressure, you would need to place the pressure gauge between the tube and the water pump.
